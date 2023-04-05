@@ -83,4 +83,4 @@ pipenv run python -m pytest
 2. Accuracy and performance of this application is directly dependent on SpaCy model.
 3. This tools accuracy and performance is enhanced by using regular expressions along with SpaCy but unfortunately not all cases of the entities (names, phones, genders, dates and addresses) were included as regular expressions. Thus, some information may not be redacted if they were not recognized by SpaCy model or included regular expressions.
 
-![](Recording #6.gif)
+![](https://github.com/MehreenHabibr/cs5293sp23-project1/blob/main/Recording%20%236.gif)
