@@ -7,11 +7,11 @@ name = "pypi"
 black = "*"
 spacy = "*"
 project1 = {path = "."}
-pytest = "*"
+
 
 [dev-packages]
 
 [requires]
 python_version = "3.10"
 pytest= "7.2.2"
-spacy= "3.5.1"
+
