@@ -1,20 +1,21 @@
 **MEHREEN HABIB**
 ---------
-> #### Project Title: CS5293, spring 2023 Project 1
-####Project Description:
+> ## Project Title: CS5293, spring 2023 Project 1
+### Project Description:
  **This project involves redacting sensitive information i.e. name, address, phone number, gender and dates from text file and writes the redacted data into .redacted file using Natural Language processing tools like Spacy and Nltk.**
  
  #### Installation
   ****
- >**SpaCy** - Industrial-strength Natural Language Processing (NLP) in Python.
- >**en_core_web_md** - SpaCy's English pipeline optimized for CPU.
- >**nltk** - A suite of open source tools, data sets, and tutorials for Natural Language Processing research.
- >**import en_core_web_sm** - Pre-trained small English language model for spacy
- >**import en_core_web_md** - Pre-trained medium English language model for spacy
- >**Pytest** - Testing framework that supports complex functional testing.
- >**autopep8** - Tool that automatically formats Python code 
- >**Black** - Code formatter
- >**Glob** is a python module used to return all file paths that match a specific pattern.
+ - `Spacy` Industrial-strength Natural Language Processing (NLP) in Python.
+     - `en_core_web_sm` - Pre-trained small English language model for spacy
+     - `import en_core_web_sm` - Pre-trained small English language model for spacy
+
+ - `nltk`- A suite of open source tools, data sets, and tutorials for Natural Language Processing research.
+
+ -  `Pytest` - Testing framework that supports complex functional testing.
+ - `autopep8` - Tool that automatically formats Python code 
+ - `Black` - Code formatter
+ -  `Glob` - is a python module used to return all file paths that match a specific pattern.
 
 
  #### Approach to Develope the code
@@ -61,23 +62,23 @@ pipenv install
 Packages required to run this project are kept in requirements.txt file which automatically installs during installation of pipenv in step 1.
 
 
-#####python_version = "3.10"
+##### python_version = "3.10"
 
-#####pytest==7.2.2
+##### pytest==7.2.2
 
 Once, the packages are successfully installed
 
-####The project can be executed using
-pipenv run python redactor.py --input *.txt --names --dates --phones --genders --address --output 'files' --stats stdout
+#### The project can be executed using
+`pipenv run python redactor.py --input *.txt --names --dates --phones --genders --address --output 'files' --stats stdout`
 
 
 ## Tests
 ---
-####Pytests can run using below command
-pipenv run python -m pytest
+#### Pytests can run using below command
+`pipenv run python -m pytest`
 
 
-##Assumptions:
+## Assumptions:
 ---
 1. Names of people and organizations are considered as names and thus redacted if --names flag is used.
 2. Accuracy and performance of this application is directly dependent on SpaCy model.
