@@ -56,9 +56,17 @@
     prints stats to the console if the stats argument is set to "stdout", calls the stats function to redact sensitive information from the file, and then calls the output function to 
     write the redacted data to a file or print it to the console depending on the output argument.
 
+ #### Tests
+---
+1. test_redact_names.py :  Test if names are redacted correctly
+2. test_redact_gender.py : Test if genders are redacted correctly
+3. test_redact_address.py : Test if addresses are redacted correctly
+4. test_redact_dates.py : Test if dates are redacted correctly
+5. test_redact_output.py :  Test if the output is written to a file.
+6. test_redact_phones.py : Test if phone numbers are redacted correctly
+7. test_unicode.py : Test if the unicode character is replaced correctly
 
 pipenv install
-
 Packages required to run this project are kept in requirements.txt file which automatically installs during installation of pipenv in step 1.
 
 
