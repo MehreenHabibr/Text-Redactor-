@@ -66,6 +66,9 @@
 6. test_redact_phones.py : Test if phone numbers are redacted correctly
 7. test_unicode.py : Test if the unicode character is replaced correctly
 
+#### Pytests can run using below command
+`pipenv run python -m pytest`
+
 pipenv install
 Packages required to run this project are kept in requirements.txt file which automatically installs during installation of pipenv in step 1.
 
@@ -79,11 +82,6 @@ Once, the packages are successfully installed
 #### The project can be executed using
 `pipenv run python redactor.py --input *.txt --names --dates --phones --genders --address --output 'files' --stats stdout`
 
-
-## Tests
----
-#### Pytests can run using below command
-`pipenv run python -m pytest`
 
 
 ## Assumptions:
