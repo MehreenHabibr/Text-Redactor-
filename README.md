@@ -91,4 +91,5 @@ Once, the packages are successfully installed
 3. This tools accuracy and performance is enhanced by using regular expressions along with SpaCy but unfortunately not all cases of the entities (names, phones, genders, dates and addresses) were included as regular expressions. Thus, some information may not be redacted if they were not recognized by SpaCy model or included regular expressions.
 4. Address is redacting zip code sometime and sometime it is not.
 
+
 ![](https://github.com/MehreenHabibr/cs5293sp23-project1/blob/main/Recording%20%236.gif)
