@@ -1,6 +1,6 @@
 **MEHREEN HABIB**
 ---------
-> ## Project Title: CS5293, spring 2023 Project 1
+> ## Project Title: Text Redactor 
 ### Project Description:
  **This project involves redacting sensitive information i.e. name, address, phone number, gender and dates from text file and writes the redacted data into .redacted file using Natural Language processing tools like Spacy and Nltk.**
  
